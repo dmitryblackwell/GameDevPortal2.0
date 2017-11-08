@@ -1,0 +1,27 @@
+#canvas{
+    display: block;
+    border: 1px black solid;
+    margin: 40px auto;
+}
+#FormName{
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+}
+#FormName p{
+    font-size: 1.3em;
+}
+#text{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.4em;
+}
+#ScoreTable{
+    border-collapse:separate;
+    border-spacing:0;
+    margin-bottom:1.4em;
+    width:100%;
+    vertical-align:middle;
+}
+#ScoreTable th,#ScoreTable td {vertical-align:middle;}

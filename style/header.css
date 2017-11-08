@@ -1,0 +1,41 @@
+#HeaderTop{
+    background: #00B2AE;
+}
+#HeaderTop h2{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+#TopMenu ul{
+    float: right;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+#TopMenu ul li{
+    float: left;
+    padding: 14px;
+    font-size: 1.2em;
+}
+#TopMenu ul li:hover{
+    background: #D3FFFE;
+}
+#TopMenu ul a, #BottomMenu ul a{
+    text-decoration: none;
+    color: black;
+}
+#BottomMenu{
+    background: #FF5B00;
+}
+#BottomMenu ul{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#BottomMenu ul li{
+    float: left;
+    padding: 10px;
+}
+#BottomMenu ul li:hover{
+    background: #ff8c45;
+}
