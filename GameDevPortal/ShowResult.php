@@ -15,7 +15,7 @@
         include_once 'PhpGears/BottomGameMenu.php';
         ?>
         <script>
-            document.getElementById("GameLi").style.backgroundColor="#D3FFFE";
+            document.getElementById("GameLi").style.backgroundColor="#FFFFFF";
             document.getElementById("ShowResultLi").style.backgroundColor="#ff8c45";
         </script>
     </header>

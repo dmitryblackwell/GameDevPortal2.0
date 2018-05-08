@@ -24,7 +24,6 @@
             </main>
 
             <?php include_once 'PhpGears/footer.php';?>
-
         </div>
     </body>
 </html>
