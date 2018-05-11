@@ -18,13 +18,13 @@
         /* Control the left side */
         .left {
             left: 0;
-            background-color: #111;
+            background-color: #00B2AE;
         }
 
         /* Control the right side */
         .right {
             right: 0;
-            background-color: red;
+            background-color: #fbf9ef;
         }
 
         /* If you want the content centered horizontally and vertically */
@@ -38,26 +38,31 @@
 
         /* Style the image inside the centered container, if needed */
         .centered img {
-            width: 150px;
+            width: 250px;
             border-radius: 50%;
+        }
+        a,a:link,a:visited{
+            color: black;
         }
     </style>
 </head>
 <body>
     <div class="split left">
-        <div class="centered">
-            <img src="img_avatar2.png" alt="Avatar woman">
-            <h2>Jane Flex</h2>
-            <p>Some text.</p>
-        </div>
+        <a href="GameDevPortal/BestGameEver.php">
+            <div class="centered">
+                <img src="game_dev.jpg" alt="Avatar woman">
+                <h1>JGameDev Portal</h1>
+            </div>
+        </a>
     </div>
-    
+
     <div class="split right">
-        <div class="centered">
-            <img src="pi_zno.jpg" alt="Avatar man">
-            <h2>John Doe</h2>
-            <p>Some text here too.</p>
-        </div>
+        <a href="PI_ZNO_score/index.php">
+            <div class="centered">
+                <img src="pi_zno.png" alt="Avatar man">
+                <h1>PI ZNO score</h1>
+            </div>
+        </a>
     </div>
 </body>
 </html>
